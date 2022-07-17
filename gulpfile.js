@@ -11,8 +11,8 @@ gulp.task('copyJS', function() {
 gulp.task('sassToCSS', function() {
     return gulp.src('app/scss/*.scss')
         .pipe(sass({
-            errorLogToConsole: true
-            //outputStyle:  'compressed'
+            errorLogToConsole: true,
+            outputStyle:  'compressed'
         }))
         .on('error', console.error.bind(console))
         .pipe(rename({suffix: '.min'})) // 'main.min.css'
