@@ -49,4 +49,20 @@
     .text-2xs {font-size: 10px}
     .left-width {width: calc(55% - 20px)}
     .right-width {width: calc(45% - 60px)}
+    .btn-main {
+        width: 135px;
+        height: 32px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 8px;
+        background: #4D49B4;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.8px;
+    }
+    .px-7\.5 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }

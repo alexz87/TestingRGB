@@ -481,6 +481,24 @@ a {
   width: calc(45% - 60px)
 }
 
+.btn-main {
+  width: 135px;
+  height: 32px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4D49B4;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.px-7\.5 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -630,14 +648,14 @@ a {
   position: relative;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mt-2\.5 {
@@ -652,18 +670,6 @@ a {
   margin-right: 1.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -672,8 +678,12 @@ a {
   margin-left: 1.25rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .flex {
@@ -698,6 +708,10 @@ a {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-3 {
@@ -824,6 +838,11 @@ a {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .pt-6 {
