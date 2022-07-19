@@ -6,30 +6,30 @@ html(lang="ua")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(name="author", content="Oleksandr Zadorozhnii")
         title Testing RGB
-        link(rel="stylesheet", href="css/main.min.css")
+        link(rel="stylesheet", href="css/style.css")
     body
-        .container
-            .left-box
-                .logo
-                    span.first-logo Logo
-                    span.second-logo FX
-                a(href="#").active-link.color-active
-                    img(src="img/dashboard.svg")
+        .flex.justify-center
+            .w-25.flex.flex-col.items-start.bg-leftBox.pt-6
+                .text-2xl.font-black.pl-10
+                    span Logo
+                    span.text-activeColor FX
+                a(href="#").links-width.active-link.color-active.flex.justify-start.items-center.mt-2.5.py-2
+                    img(src="img/dashboard.svg").w-15px.h-15px.mr-2.5
                     span Dashboard
-                a(href="#")
-                    img(src="img/account.svg")
+                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
+                    img(src="img/account.svg").w-15px.h-15px.mr-2.5
                     span Open Account
-                a(href="#")
-                    img(src="img/deposit.svg")
+                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
+                    img(src="img/deposit.svg").w-15px.h-15px.mr-2.5
                     span Deposit & Withdraw
-                a(href="#")
-                    img(src="img/trading.svg")
+                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
+                    img(src="img/trading.svg").w-15px.h-15px.mr-2.5
                     span Trading History
-                a(href="#")
-                    img(src="img/partnership.svg")
+                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
+                    img(src="img/partnership.svg").w-15px.h-15px.mr-2.5
                     span IB Partnership
-                a(href="#")
-                    img(src="img/investments.svg")
+                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
+                    img(src="img/investments.svg").w-15px.h-15px.mr-2.5
                     span Investments & Fund Mgmt
                 .line 
             .right-box

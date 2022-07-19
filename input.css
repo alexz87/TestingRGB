@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Avenir Next Variable';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2729/AvenirNext_Variable.ttf') format('truetype');
+}
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: #F8F8F8;
+        font-family: "Avenir Next Variable", sans-serif;
+        font-size: 12px;
+    }
+    a {
+        color: #16113D;
+        text-decoration: none;
+    }
+    .color-active {color: #4D49B4}
+    .w-25 {width: 25%}
+    .links-width {width: calc(100% - 40px)}
+    .active-link {
+        padding-left: 36px;
+        border-left: 4px solid #4D49B4;
+    }
+    .line {
+        width: calc(100% - 40px);
+        margin: 70px 20px 0 20px;
+        border-bottom: 1px solid #F2F2F2;
+    }
+    .w-15px {width: 15px}
+    .h-15px {height: 15px}
+}
