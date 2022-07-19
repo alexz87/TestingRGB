@@ -44,4 +44,9 @@
         font-weight: 600;
         line-height: 16.8px;
     }
+    .top-m5 {top: -5px}
+    .right-m5 {right: -5px}
+    .text-2xs {font-size: 10px}
+    .left-width {width: calc(55% - 20px)}
+    .right-width {width: calc(45% - 60px)}
 }

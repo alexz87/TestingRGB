@@ -44,26 +44,26 @@ html(lang="ua")
                             span(class="font-semibold") Support
                     div(class="w-2/6 flex justify-between items-center")
                         a(href="#")
-                            img(src="img/theme.svg")
+                            img(src="img/theme.svg", class="w-[18px] h-[18px]")
                         a(href="#")
-                            img(src="img/flag.svg")
+                            img(src="img/flag.svg", class="w-[18px] h-[18px]")
                         a(href="#", class="relative flex justify-center items-center")
-                            img(src="img/dure.svg")
-                            .last 
+                            img(src="img/dure.svg", class="w-[18px] h-[18px]")
+                            div(class="absolute top-m5 right-m5 w-3.5 h-3.5 bg-notification border-0 rounded-full text-white font-semibold text-2xs flex justify-center items-center")
                                 span 2
-                        .user
-                            .sphere
+                        div(class="flex justify-center items-center")
+                            div(class="w-8 h-8 bg-sphere border-0 rounded-full text-white text-xs font-semibold flex justify-center items-center mr-2.5")
                                 span A
-                            a(href="#").name
-                                span Artem Zhushman
-                                span Retail
-                .main
-                    .top
-                        .left
-                            p.first Thank you for opening an account with Kenmore Fx
-                            p.second Complete account management at your fingertips: from downloads, electronic deposits and withdrawals, to advanced partnership automation and analytics. Start by downloading our Trading Terminal for your computer and making a deposit.
-                        .right
-                            div
+                            a(href="#", class="flex flex-col items-start")
+                                span(class="font-semibold text-firstChild") Artem Zhushman
+                                span(class="font-semibold text-lastChild") Retail
+                div(class="flex flex-col justify-center items-center pt-5 bg-main")
+                    div(class="flex justify-center items-center")
+                        div(class="left-width h-32 mr-6 bg-white border-0 rounded-xl")
+                            p(class="text-firstChild mt-5 mx-5 font-semibold text-lg") Thank you for opening an account with Kenmore Fx
+                            p(class="text-lastChild mt-2.5 mx-5 font-normal") Complete account management at your fingertips: from downloads, electronic deposits and withdrawals, to advanced partnership automation and analytics. Start by downloading our Trading Terminal for your computer and making a deposit.
+                        div(class="right-width h-32 flex justify-between items-center bg-white border-0 rounded-xl")
+                            div(class="text-firstChild my-5 mr-5 flex flex-col items-start justify-center")
                                 p.first Alerts
                                 p.second Its a good! You don’t have alerts
                                 button.btn Make a Deposit
