@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         leftBox: "#F8F8F8",
-        activeColor: "#4D49B4"
+        activeColor: "#4D49B4",
+        header: "#F3F5F6"
       }
     },
   },

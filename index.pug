@@ -7,47 +7,47 @@ html(lang="ua")
         meta(name="author", content="Oleksandr Zadorozhnii")
         title Testing RGB
         link(rel="stylesheet", href="css/style.css")
-    body
-        .flex.justify-center
-            .w-25.flex.flex-col.items-start.bg-leftBox.pt-6
-                .text-2xl.font-black.pl-10
+    body.w-full
+        div(class="flex justify-center w-full")
+            div(class="w-1/4 flex flex-col items-start bg-leftBox pt-6")
+                div(class="text-2xl font-black pl-10")
                     span Logo
-                    span.text-activeColor FX
-                a(href="#").links-width.active-link.color-active.flex.justify-start.items-center.mt-2.5.py-2
-                    img(src="img/dashboard.svg").w-15px.h-15px.mr-2.5
-                    span Dashboard
-                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
-                    img(src="img/account.svg").w-15px.h-15px.mr-2.5
-                    span Open Account
-                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
-                    img(src="img/deposit.svg").w-15px.h-15px.mr-2.5
-                    span Deposit & Withdraw
-                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
-                    img(src="img/trading.svg").w-15px.h-15px.mr-2.5
-                    span Trading History
-                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
-                    img(src="img/partnership.svg").w-15px.h-15px.mr-2.5
-                    span IB Partnership
-                a(href="#").links-width.flex.justify-start.items-center.mt-2.5.py-2.pl-10
-                    img(src="img/investments.svg").w-15px.h-15px.mr-2.5
-                    span Investments & Fund Mgmt
-                .line 
-            .right-box
-                .header
-                    .left
-                        button.btn Go Live
-                        a(href="#")
-                            img(src="img/download.svg")
-                            span Download Terminal
-                        a(href="#")
-                            img(src="img/support.svg")
-                            span Support
-                    .right
+                    span(class="text-activeColor") FX
+                a(href="#", class="links-width active-link color-active flex justify-start items-center mt-2.5 py-2")
+                    img(src="img/dashboard.svg", class="w-[15px] h-[15px] mr-2.5")
+                    span(class="text-sm font-medium") Dashboard
+                a(href="#", class="links-width flex justify-start items-center mt-2.5 py-2 pl-10")
+                    img(src="img/account.svg", class="w-[15px] h-[15px] mr-2.5")
+                    span(class="text-sm font-mediu") Open Account
+                a(href="#", class="links-width flex justify-start items-center mt-2.5 py-2 pl-10")
+                    img(src="img/deposit.svg", class="w-[15px] h-[15px] mr-2.5")
+                    span(class="text-sm font-mediu") Deposit & Withdraw
+                a(href="#", class="links-width flex justify-start items-center mt-2.5 py-2 pl-10")
+                    img(src="img/trading.svg", class="w-[15px] h-[15px] mr-2.5")
+                    span(class="text-sm font-mediu") Trading History
+                a(href="#", class="links-width flex justify-start items-center mt-2.5 py-2 pl-10")
+                    img(src="img/partnership.svg", class="w-[15px] h-[15px] mr-2.5")
+                    span(class="text-sm font-mediu") IB Partnership
+                a(href="#", class="links-width flex justify-start items-center mt-2.5 py-2 pl-10")
+                    img(src="img/investments.svg", class="w-[15px] h-[15px] mr-2.5")
+                    span(class="text-sm font-mediu") Investments & Fund Mgmt
+                div.line 
+            div(class="w-3/4 flex flex-col items-start")
+                div(class="header-width flex justify-between items-center bg-header py-4 pl-10 pr-7")
+                    div(class="flex justify-between items-center w-5/12")
+                        button(class="btn-header") Go Live
+                        a(href="#", class="flex justify-center items-center space-x-3")
+                            img(src="img/download.svg", class="w-[18px] h-[18px]")
+                            span(class="font-semibold") Download Terminal
+                        a(href="#", class="flex justify-center items-center space-x-3")
+                            img(src="img/support.svg", class="w-[18px] h-[18px]")
+                            span(class="font-semibold") Support
+                    div(class="w-2/6 flex justify-between items-center")
                         a(href="#")
                             img(src="img/theme.svg")
                         a(href="#")
                             img(src="img/flag.svg")
-                        a(href="#")
+                        a(href="#", class="relative flex justify-center items-center")
                             img(src="img/dure.svg")
                             .last 
                                 span 2

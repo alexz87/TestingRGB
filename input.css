@@ -22,8 +22,8 @@
         text-decoration: none;
     }
     .color-active {color: #4D49B4}
-    .w-25 {width: 25%}
     .links-width {width: calc(100% - 40px)}
+    .header-width {width: calc(100% - 65px)}
     .active-link {
         padding-left: 36px;
         border-left: 4px solid #4D49B4;
@@ -33,6 +33,15 @@
         margin: 70px 20px 0 20px;
         border-bottom: 1px solid #F2F2F2;
     }
-    .w-15px {width: 15px}
-    .h-15px {height: 15px}
+    .btn-header {
+        width: 114px;
+        height: 32px;
+        border-radius: 8px;
+        border: none;
+        background: #4D49B4;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.8px;
+    }
 }
